@@ -1,0 +1,2 @@
+# Preserve the raw CRLF fixture on checkout instead of converting line endings.
+tests/raw/outputs/crlf.txt -text

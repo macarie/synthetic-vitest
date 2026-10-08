@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`causes and aggregate errors are serialized together > caused error 1`] = `[Error: Outer synthetic failure]`;
+
+exports[`rejected promises use both error snapshot matchers > rejection 1`] = `[TypeError: Synthetic validation failed: invalid snapshot input]`;

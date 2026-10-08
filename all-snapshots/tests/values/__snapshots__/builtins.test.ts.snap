@@ -1,0 +1,57 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`concurrent snapshot assertions use local expect A 1`] = `"Concurrent alpha"`;
+
+exports[`concurrent snapshot assertions use local expect B 1`] = `"Concurrent beta"`;
+
+exports[`cycles and shared references > cycle 1`] = `
+{
+  "label": "Circular catalogue",
+  "self": [Circular],
+}
+`;
+
+exports[`maps sets dates regexes and typed arrays 1`] = `
+{
+  "bigint": 9007199254740993n,
+  "bytes": Uint8Array [
+    83,
+    121,
+    110,
+    116,
+    104,
+    101,
+    116,
+    105,
+    99,
+    32,
+    99,
+    111,
+    108,
+    108,
+    101,
+    99,
+    116,
+    105,
+    111,
+    110,
+  ],
+  "date": 2026-01-01T00:00:00.000Z,
+  "label": "Synthetic collection",
+  "map": Map {
+    "title" => "Synthetic collection",
+    "state" => "ready",
+  },
+  "missing": undefined,
+  "regex": /snapshot/gi,
+  "set": Set {
+    "Synthetic collection",
+    "snapshots",
+  },
+  "specialNumbers": [
+    NaN,
+    Infinity,
+    -0,
+  ],
+}
+`;

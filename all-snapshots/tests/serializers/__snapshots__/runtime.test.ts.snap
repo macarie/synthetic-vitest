@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`runtime and configured serializers compose in one test 1`] = `Badge(Snapshot ready)`;
+
+exports[`serializer handles nested values and repeated snapshots > nested serializers 1`] = `
+{
+  "badge": Badge(Nested badge),
+  "packet": Packet /snapshots/catalogue
+{
+    "count": 2,
+    "items": [
+      "inline",
+      "external",
+    ],
+    "status": "ready",
+    "title": "Snapshot catalogue",
+  },
+}
+`;

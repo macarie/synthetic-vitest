@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`configured serializer applies to file and inline snapshots > first packet 1`] = `
+Packet /snapshots/catalogue
+{
+  "count": 2,
+  "items": [
+    "inline",
+    "external",
+  ],
+  "status": "ready",
+  "title": "Snapshot catalogue",
+}
+`;
+
+exports[`configured serializer applies to file and inline snapshots > second packet 1`] = `
+Packet /snapshots/catalogue
+{
+  "count": 2,
+  "items": [
+    "inline",
+    "external",
+  ],
+  "status": "ready",
+  "title": "Snapshot catalogue",
+}
+`;
+
+exports[`serialized snapshots coexist with unprocessed raw files 3`] = `"Unserialized string"`;

@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`raw HTML and JSON with serialized and inline companions 3`] = `
+{
+  "count": 2,
+  "items": [
+    "inline",
+    "external",
+  ],
+  "status": "ready",
+  "title": "Snapshot catalogue",
+}
+`;

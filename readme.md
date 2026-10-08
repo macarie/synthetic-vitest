@@ -10,6 +10,7 @@ This is an **unofficial testing repository**. Its suites are not representative 
 
 | Folder | What it tests |
 | --- | --- |
+| [all-snapshots](./all-snapshots/) | Mixed snapshot types across Node.js and browser projects, with reproducible seeded mismatches. |
 
 <!--
 Repository context for future maintainers and AI agents:

@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`raw text preserves whitespace without snapshot serialization > same content serialized 1`] = `
+"Header
+
+  two spaces
+	tab
+trailing spaces  
+"
+`;

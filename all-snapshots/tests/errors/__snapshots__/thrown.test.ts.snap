@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`error values and thrown strings mix with regular snapshots > error value 1`] = `[TypeError: Synthetic validation failed: invalid snapshot input]`;
+
+exports[`thrown errors have external and inline snapshots > validation 1`] = `[TypeError: Synthetic validation failed: invalid snapshot input]`;

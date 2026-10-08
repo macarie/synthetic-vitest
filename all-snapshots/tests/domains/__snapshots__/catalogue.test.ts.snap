@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`domain snapshots share a test with regular snapshots > regular object 1`] = `
+{
+  "count": 2,
+  "items": [
+    "inline",
+    "external",
+  ],
+  "status": "ready",
+  "title": "Snapshot catalogue",
+}
+`;
+
+exports[`domain snapshots share a test with regular snapshots 1`] = `
+extra=not asserted by subset templates
+name=Synthetic catalogue
+revision=42
+status=ready
+`;
+
+exports[`semantic templates match regexes and subsets 3`] = `
+extra=not asserted by subset templates
+name=Synthetic catalogue
+revision=42
+status=ready
+`;

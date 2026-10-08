@@ -1,0 +1,37 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`DOM serialization inline ARIA and raw HTML in one test > DOM element 1`] = `
+<main
+  aria-label="Catalogue"
+>
+  <h1>
+    Snapshot catalogue
+  </h1>
+  <ul
+    aria-label="Snapshot kinds"
+  >
+    <li>
+      Inline snapshots
+    </li>
+    <li>
+      File snapshots
+    </li>
+  </ul>
+  <button>
+    Capture snapshot
+  </button>
+</main>
+`;
+
+exports[`multiple ARIA snapshots and ordinary values coexist 1`] = `
+- main "Catalogue":
+  - heading "Snapshot catalogue" [level=1]
+  - list "Snapshot kinds":
+    - listitem: Inline snapshots
+    - listitem: File snapshots
+  - button "Capture snapshot"
+`;
+
+exports[`multiple ARIA snapshots and ordinary values coexist 3`] = `
+- button "Capture snapshot"
+`;

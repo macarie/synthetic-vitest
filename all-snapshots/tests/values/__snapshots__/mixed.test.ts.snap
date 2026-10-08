@@ -1,0 +1,45 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`external and inline snapshots in the same test > catalogue 1`] = `
+{
+  "count": 2,
+  "items": [
+    "inline",
+    "external",
+  ],
+  "status": "ready",
+  "title": "Snapshot catalogue",
+}
+`;
+
+exports[`external and inline snapshots in the same test > second catalogue 1`] = `
+{
+  "count": 2,
+  "items": [
+    "inline",
+    "external",
+  ],
+  "status": "ready",
+  "title": "Snapshot catalogue",
+}
+`;
+
+exports[`property matchers retain stable snapshot content > masked metadata 1`] = `
+{
+  "count": 2,
+  "createdAt": Any<Date>,
+  "items": [
+    "inline",
+    "external",
+  ],
+  "requestId": Any<String>,
+  "status": "ready",
+  "title": "Snapshot catalogue",
+}
+`;
+
+exports[`repeated external snapshots use counters and hints > named output 1`] = `"Third output"`;
+
+exports[`repeated external snapshots use counters and hints 1`] = `"First output"`;
+
+exports[`repeated external snapshots use counters and hints 2`] = `"Second output"`;

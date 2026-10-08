@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`escaping and whitespace > multiline snapshots and raw content in the same test > markdown serialized 1`] = `
+"# Snapshot report
+
+- Inline snapshots
+- File snapshots
+
+\`literal backticks\` and "quotes"
+"
+`;

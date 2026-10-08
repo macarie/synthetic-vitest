@@ -1,0 +1,13 @@
+{
+  "kind": "packet",
+  "route": "/snapshots/catalogue",
+  "payload": {
+    "title": "Snapshot catalogue",
+    "status": "ready",
+    "items": [
+      "inline",
+      "external"
+    ],
+    "count": 2
+  }
+}

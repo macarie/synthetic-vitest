@@ -1,0 +1,6 @@
+minimumReleaseAgeExclude:
+- '@rolldown/*'
+- playwright
+- playwright-core
+- rolldown
+- vite

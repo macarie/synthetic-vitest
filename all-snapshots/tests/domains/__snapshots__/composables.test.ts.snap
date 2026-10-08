@@ -1,0 +1,24 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`custom snapshot composables cover external inline and raw files 1`] = `"CUSTOM EXTERNAL SNAPSHOT"`;
+
+exports[`custom snapshot composables cover external inline and raw files 4`] = `
+extra=not asserted by subset templates
+name=Synthetic catalogue
+revision=42
+status=ready
+`;
+
+exports[`multiple domain snapshots in the same test retain separate counters 1`] = `
+extra=not asserted by subset templates
+name=Synthetic catalogue
+revision=42
+status=ready
+`;
+
+exports[`multiple domain snapshots in the same test retain separate counters 2`] = `
+extra=not asserted by subset templates
+name=Synthetic catalogue
+revision=42
+status=ready
+`;
